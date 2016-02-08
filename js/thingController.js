@@ -190,7 +190,7 @@ app.controller('thingController', function ($scope, $state, $stateParams, $http,
           var val = obj[key];
           if (key === 'requiredPlayerLevel' && uselessRequiredPlayerLevel) {
             continue;
-          } else if (key === 'xpGain' && uselessRequiredPlayerLevel) {
+          } else if (key === 'xpGain' && uselessXpGain) {
             continue;
           } else if (typeof val === 'number') {
             if (key.toLowerCase().endsWith('time')) {

@@ -22,5 +22,10 @@ app.config(function ($stateProvider, $urlRouterProvider) {
       url: '/thing/:category/:id/:graphKey',
       controller: 'thingController',
       templateUrl: 'partials/thing.html'
+    })
+    .state('brokenList', {
+      url: '/brokenList',
+      controller: 'brokenListController',
+      templateUrl: 'partials/brokenList.html'
     });
 });

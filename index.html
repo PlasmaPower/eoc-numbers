@@ -17,6 +17,7 @@
   <script src="./js/categoriesController.js"></script>
   <script src="./js/typesController.js"></script>
   <script src="./js/thingController.js"></script>
+  <script src="./js/brokenListController.js"></script>
   <link rel="stylesheet" href="./index.css">
 </head>
 <body ng-app="eocNumbers" ng-controller="mainController">
@@ -28,6 +29,9 @@
       <ul class="nav navbar-nav">
         <li ui-sref-active="active" ng-repeat="category in categories">
           <a ui-sref="types({ category: category.param })" ng-bind="category.text"></a>
+        </li>
+        <li ui-sref-active="active">
+          <a ui-sref="brokenList()">Broken Items</a>
         </li>
       </ul>
     </div>

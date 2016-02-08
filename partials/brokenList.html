@@ -1,0 +1,10 @@
+<h1 class="page-header">Broken Items</h1>
+
+<div ng-repeat="category in categories">
+  <h2 ng-bind="category.text"></h2>
+  <div ng-repeat="item in brokenItems[category.param]">
+    <a ui-sref="thing({ category: category.param, id: item.id, graphKey: item.graphKey })">
+      <b ng-bind="item.name"></b> - {{item.keyName}} {{item.direction}} at level {{item.level}}
+    </a>
+  </div>
+</div>
