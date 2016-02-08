@@ -1,0 +1,7 @@
+<h1 class="page-header">Categories</h1>
+
+<ul>
+  <li ng-repeat="category in categories">
+    <a ui-sref="types({ category: category.param })" ng-bind="category.text"></a>
+  </li>
+</ul>

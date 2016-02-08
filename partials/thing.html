@@ -1,0 +1,46 @@
+<h1 class="page-header">{{categoryName}} - {{thing.name}} <small ng-bind="thing.description"></small></h1>
+
+<div style="max-width: 750px">
+  <canvas id="graph"
+          class="chart chart-line"
+          ng-if="thing.stats.length > 1"
+          chart-data="dataFor(graph)"
+          chart-labels="labelsFor(graph)"
+          chart-legend="true"
+          chart-series="seriesFor(graph)"
+          chart-colours="colorsFor(graph)">
+  </canvas>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <td>
+          <span>Level</span>
+          <button class="btn btn-default" ng-if="thing.stats.length > 1" ng-click="setGraph('level')">Graph</button>
+        </td>
+        <td ng-repeat="key in keys" ng-if="key !== 'level'">
+          <span ng-bind="thing.statsTitles[key] || key"></span>
+          <button class="btn btn-default"
+                  ng-if="thing.stats.length > 1"
+                  ng-click="setGraph(key)">
+            Graph
+          </button>
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="row in table">
+        <td ng-bind="row['level'].number"></td>
+        <td ng-repeat="key in keys" ng-if="key !== 'level'">
+          <div ng-switch="row[key].type">
+            <div ng-switch-when="number" ng-bind="row[key].number"></div>
+            <div ng-switch-when="time" ng-bind="row[key].text"></div>
+            <div ng-switch-when="cost" ng-bind="row[key].text" class="pre-wrap"></div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

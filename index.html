@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>Empire of Code Numbers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="./bower_components/angular/angular.min.js"></script>
+  <script src="./bower_components/ui-router/release/angular-ui-router.min.js"></script>
+  <script src="./bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+  <script src="./bower_components/Chart.js/Chart.min.js"></script>
+  <script src="./bower_components/angular-chart.js/dist/angular-chart.min.js"></script>
+  <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="./bower_components/angular-chart.js/dist/angular-chart.min.css"></script>
+
+  <script src="./js/index.js"></script>
+  <script src="./js/mainController.js"></script>
+  <script src="./js/categoriesController.js"></script>
+  <script src="./js/typesController.js"></script>
+  <script src="./js/thingController.js"></script>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body ng-app="eocNumbers" ng-controller="mainController">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" ui-sref="categories">EoC Numbers</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li ui-sref-active="active" ng-repeat="category in categories">
+          <a ui-sref="types({ category: category.param })" ng-bind="category.text"></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="content container-fluid">
+    <div ui-view></div>
+  </div>
+</body>
+</html>

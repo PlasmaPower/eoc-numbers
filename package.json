@@ -1,0 +1,23 @@
+{
+  "name": "eoc-numbers",
+  "version": "1.0.0",
+  "description": "Pull numbers from Empire of Code",
+  "main": "pullNumbers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlasmaPower/eoc-numbers.git"
+  },
+  "author": "Lee Bousfield <ljbousfield@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PlasmaPower/eoc-numbers/issues"
+  },
+  "homepage": "https://github.com/PlasmaPower/eoc-numbers#readme",
+  "dependencies": {
+    "request": "^2.69.0",
+    "socket.io-client": "^1.4.5"
+  }
+}

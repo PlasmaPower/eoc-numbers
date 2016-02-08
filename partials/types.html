@@ -1,0 +1,15 @@
+<h1 class="page-header" ng-bind="name"></h1>
+
+<ul>
+  <li ng-repeat="thing in things">
+    <a ui-sref="thing({ category: category, id: thing.index, graphKey: 'level' })" ng-bind="thing.name"></a>
+  </li>
+</ul>
+
+<h2 ng-if="decorations.length > 0">Decorations</h2>
+<ul>
+  <li ng-repeat="thing in decorations">
+    <a ui-sref="thing({ category: category, id: thing.index, graphKey: 'level' })" ng-bind="thing.name"></a>
+  </li>
+</ul>
+
