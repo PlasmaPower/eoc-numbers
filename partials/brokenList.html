@@ -7,4 +7,8 @@
       <b ng-bind="item.name"></b> - {{item.keyName}} {{item.direction}} at level {{item.level}}
     </a>
   </div>
+  <span ng-if="loaded[category.param] && !brokenItems[category.param].length">
+    <b>Hooray!</b>
+    Nothing appears to be broken here.
+  </span>
 </div>

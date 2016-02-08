@@ -2,9 +2,11 @@ var app = angular.module('eocNumbers');
 
 app.controller('brokenListController', function ($scope, $http, categories) {
   $scope.brokenItems = {};
+  $scope.loaded = {};
   for (var y = 0; y < categories.length; y++) {
     (function (category) {
       $http.get('./json/' + category.param + '.json').then(function (response) {
+        $scope.loaded[category.param] = true;
         var data = response.data;
         var brokenItems = $scope.brokenItems[category] = [];
         for (var x = 0; x < data.length; x++) {
@@ -52,7 +54,6 @@ app.controller('brokenListController', function ($scope, $http, categories) {
               direction[key] = Math.sign(end - start);
             }
           }
-          console.log(direction);
           for (var i = 0; i < stats.length; i++) {
             function handlePoint(key, point, prefix) {
               if (prefix) {
@@ -60,8 +61,6 @@ app.controller('brokenListController', function ($scope, $http, categories) {
               } else {
                 prefix = '';
               }
-              console.log(prefix);
-              console.log(key);
               if (lastVals[prefix + key]
                   && point !== lastVals[prefix + key]
                   && Math.sign(point - lastVals[prefix + key]) !== direction[prefix + key]) {
