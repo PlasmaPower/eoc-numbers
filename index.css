@@ -2,6 +2,10 @@
   margin-top: 0px;
 }
 
+.page-header small {
+  font-size: 50%;
+}
+
 .pre-wrap {
   white-space: pre-wrap;
 }
