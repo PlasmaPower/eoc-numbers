@@ -71,7 +71,9 @@ app.controller('brokenListController', function ($scope, $http, categories) {
                   graphKey: key,
                   keyName: prefix + (item.statsTitles[key] || key),
                   direction: point > lastVals[prefix + key] ? 'increases' : 'decreases',
-                  level: i + 1
+                  level: i + 1,
+                  amount: Math.abs(point - lastVals[prefix + key]),
+                  percent: Math.floor(100 * Math.abs(point - lastVals[prefix + key]) / lastVals[prefix + key]) / 100
                 });
               }
               lastVals[prefix + key] = point;

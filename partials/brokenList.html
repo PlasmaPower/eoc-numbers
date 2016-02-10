@@ -4,7 +4,8 @@
   <h2 ng-bind="category.text"></h2>
   <div ng-repeat="item in brokenItems[category.param]">
     <a ui-sref="thing({ category: category.param, id: item.id, graphKey: item.graphKey })">
-      <b ng-bind="item.name"></b> - {{item.keyName}} {{item.direction}} at level {{item.level}}
+      <b ng-bind="item.name"></b> - {{item.keyName}} {{item.direction}} by {{item.amount}} ({{item.percent}}%)
+      at level {{item.level}}
     </a>
   </div>
   <span ng-if="loaded[category.param] && !brokenItems[category.param].length">
