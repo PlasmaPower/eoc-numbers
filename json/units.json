@@ -1,1 +1,650 @@
-[{"stats":[{"upgradeCost":[],"dps":60,"level":1,"trainingCost":[{"amount":50,"resource":"crystalite"}],"xpGain":0,"trainingTime":45,"upgradeTime":0,"hitpoints":280},{"upgradeCost":[{"amount":20000,"resource":"crystalite"}],"dps":70,"level":2,"trainingCost":[{"amount":100,"resource":"crystalite"}],"xpGain":0,"trainingTime":70,"upgradeTime":7200,"hitpoints":300},{"upgradeCost":[{"amount":40000,"resource":"crystalite"}],"dps":75,"level":3,"trainingCost":[{"amount":150,"resource":"crystalite"}],"xpGain":0,"trainingTime":80,"upgradeTime":14400,"hitpoints":320},{"upgradeCost":[{"amount":47000,"resource":"crystalite"}],"dps":77.5,"level":4,"trainingCost":[{"amount":200,"resource":"crystalite"}],"xpGain":0,"trainingTime":90,"upgradeTime":25200,"hitpoints":340},{"upgradeCost":[{"amount":94000,"resource":"crystalite"}],"dps":80,"level":5,"trainingCost":[{"amount":250,"resource":"crystalite"}],"xpGain":0,"trainingTime":95,"upgradeTime":32400,"hitpoints":360},{"upgradeCost":[{"amount":160000,"resource":"crystalite"}],"dps":82,"level":6,"trainingCost":[{"amount":300,"resource":"crystalite"}],"xpGain":0,"trainingTime":100,"upgradeTime":86400,"hitpoints":370},{"upgradeCost":[{"amount":220000,"resource":"crystalite"}],"dps":84,"level":7,"trainingCost":[{"amount":350,"resource":"crystalite"}],"xpGain":0,"trainingTime":105,"upgradeTime":144000,"hitpoints":380},{"upgradeCost":[{"amount":340000,"resource":"crystalite"}],"dps":86,"level":8,"trainingCost":[{"amount":400,"resource":"crystalite"}],"xpGain":0,"trainingTime":110,"upgradeTime":230400,"hitpoints":390},{"upgradeCost":[{"amount":460000,"resource":"crystalite"}],"dps":88,"level":9,"trainingCost":[{"amount":450,"resource":"crystalite"}],"xpGain":0,"trainingTime":115,"upgradeTime":374400,"hitpoints":400},{"upgradeCost":[{"amount":600000,"resource":"crystalite"}],"dps":90,"level":10,"trainingCost":[{"amount":500,"resource":"crystalite"}],"xpGain":0,"trainingTime":120,"upgradeTime":460800,"hitpoints":500}],"firingRate":2,"space":1,"statsTitles":{"dps":"Damage per shot","firingRate":"Rate of fire","space":"Size","trainingCost":"Training cost","trainingTime":"Training time","hitpoints":"Health","movementSpeed":"Speed","firingRange":"Range"},"name":"InfantryBot","firingRange":4,"type":"infantryBot","movementSpeed":2,"description":"Infantry Bot"},{"stats":[{"upgradeCost":[],"dps":300,"level":1,"trainingCost":[{"amount":250,"resource":"crystalite"}],"xpGain":0,"trainingTime":240,"upgradeTime":0,"hitpoints":60},{"upgradeCost":[{"amount":20000,"resource":"crystalite"}],"dps":400,"level":2,"trainingCost":[{"amount":330,"resource":"crystalite"}],"xpGain":0,"trainingTime":250,"upgradeTime":7200,"hitpoints":70},{"upgradeCost":[{"amount":40000,"resource":"crystalite"}],"dps":500,"level":3,"trainingCost":[{"amount":450,"resource":"crystalite"}],"xpGain":0,"trainingTime":260,"upgradeTime":14400,"hitpoints":70},{"upgradeCost":[{"amount":47000,"resource":"crystalite"}],"dps":600,"level":4,"trainingCost":[{"amount":550,"resource":"crystalite"}],"xpGain":0,"trainingTime":270,"upgradeTime":25200,"hitpoints":70},{"upgradeCost":[{"amount":94000,"resource":"crystalite"}],"dps":650,"level":5,"trainingCost":[{"amount":700,"resource":"crystalite"}],"xpGain":0,"trainingTime":280,"upgradeTime":32400,"hitpoints":75},{"upgradeCost":[{"amount":160000,"resource":"crystalite"}],"dps":700,"level":6,"trainingCost":[{"amount":850,"resource":"crystalite"}],"xpGain":0,"trainingTime":290,"upgradeTime":86400,"hitpoints":75},{"upgradeCost":[{"amount":220000,"resource":"crystalite"}],"dps":750,"level":7,"trainingCost":[{"amount":950,"resource":"crystalite"}],"xpGain":0,"trainingTime":300,"upgradeTime":144000,"hitpoints":75},{"upgradeCost":[{"amount":340000,"resource":"crystalite"}],"dps":800,"level":8,"trainingCost":[{"amount":1050,"resource":"crystalite"}],"xpGain":0,"trainingTime":310,"upgradeTime":230400,"hitpoints":80},{"upgradeCost":[{"amount":460000,"resource":"crystalite"}],"dps":850,"level":9,"trainingCost":[{"amount":1100,"resource":"crystalite"}],"xpGain":0,"trainingTime":320,"upgradeTime":374400,"hitpoints":80},{"upgradeCost":[{"amount":600000,"resource":"crystalite"}],"dps":900,"level":10,"trainingCost":[{"amount":1150,"resource":"crystalite"}],"xpGain":0,"trainingTime":330,"upgradeTime":460800,"hitpoints":80}],"firingRate":0.5,"space":2,"statsTitles":{"dps":"Damage per shot","firingRate":"Rate of fire","space":"Size","trainingCost":"Training cost","trainingTime":"Training time","hitpoints":"Health","movementSpeed":"Speed","firingRange":"Range"},"name":"RocketBot","firingRange":8,"type":"rocketBot","movementSpeed":2.5,"description":"Rocket Bot"},{"stats":[{"upgradeCost":[],"dps":10,"level":1,"trainingCost":[{"amount":300,"resource":"crystalite"}],"xpGain":0,"trainingTime":360,"upgradeTime":0,"hitpoints":1000},{"upgradeCost":[{"amount":20000,"resource":"crystalite"}],"dps":10.5,"level":2,"trainingCost":[{"amount":500,"resource":"crystalite"}],"xpGain":0,"trainingTime":380,"upgradeTime":7200,"hitpoints":1400},{"upgradeCost":[{"amount":40000,"resource":"crystalite"}],"dps":11,"level":3,"trainingCost":[{"amount":700,"resource":"crystalite"}],"xpGain":0,"trainingTime":400,"upgradeTime":14400,"hitpoints":1800},{"upgradeCost":[{"amount":47000,"resource":"crystalite"}],"dps":11.2,"level":4,"trainingCost":[{"amount":900,"resource":"crystalite"}],"xpGain":0,"trainingTime":420,"upgradeTime":25200,"hitpoints":2000},{"upgradeCost":[{"amount":94000,"resource":"crystalite"}],"dps":11.4,"level":5,"trainingCost":[{"amount":1100,"resource":"crystalite"}],"xpGain":0,"trainingTime":440,"upgradeTime":32400,"hitpoints":2200},{"upgradeCost":[{"amount":160000,"resource":"crystalite"}],"dps":11.6,"level":6,"trainingCost":[{"amount":1100,"resource":"crystalite"}],"xpGain":0,"trainingTime":460,"upgradeTime":86400,"hitpoints":2600},{"upgradeCost":[{"amount":220000,"resource":"crystalite"}],"dps":11.7,"level":7,"trainingCost":[{"amount":1100,"resource":"crystalite"}],"xpGain":0,"trainingTime":480,"upgradeTime":144000,"hitpoints":2800},{"upgradeCost":[{"amount":340000,"resource":"crystalite"}],"dps":11.8,"level":8,"trainingCost":[{"amount":1100,"resource":"crystalite"}],"xpGain":0,"trainingTime":500,"upgradeTime":230400,"hitpoints":3000},{"upgradeCost":[{"amount":460000,"resource":"crystalite"}],"dps":11.9,"level":9,"trainingCost":[{"amount":1100,"resource":"crystalite"}],"xpGain":0,"trainingTime":520,"upgradeTime":374400,"hitpoints":3100},{"upgradeCost":[{"amount":600000,"resource":"crystalite"}],"dps":12,"level":10,"trainingCost":[{"amount":1100,"resource":"crystalite"}],"xpGain":0,"trainingTime":540,"upgradeTime":460800,"hitpoints":3200}],"firingRate":10,"space":3,"statsTitles":{"dps":"Damage per shot","firingRate":"Rate of fire","space":"Size","trainingCost":"Training cost","trainingTime":"Training time","hitpoints":"Health","movementSpeed":"Speed","firingRange":"Range"},"name":"HeavyBot","firingRange":2.5,"type":"heavyBot","movementSpeed":1,"description":"Heavy Bot"}]
+[
+  {
+    "stats": [
+      {
+        "upgradeCost": [],
+        "dps": 60,
+        "level": 1,
+        "trainingCost": [
+          {
+            "amount": 50,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 45,
+        "upgradeTime": 0,
+        "hitpoints": 280
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 20000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 70,
+        "level": 2,
+        "trainingCost": [
+          {
+            "amount": 100,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 70,
+        "upgradeTime": 7200,
+        "hitpoints": 300
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 40000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 75,
+        "level": 3,
+        "trainingCost": [
+          {
+            "amount": 150,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 80,
+        "upgradeTime": 14400,
+        "hitpoints": 320
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 47000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 77.5,
+        "level": 4,
+        "trainingCost": [
+          {
+            "amount": 200,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 90,
+        "upgradeTime": 25200,
+        "hitpoints": 340
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 94000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 80,
+        "level": 5,
+        "trainingCost": [
+          {
+            "amount": 250,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 95,
+        "upgradeTime": 32400,
+        "hitpoints": 360
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 160000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 82,
+        "level": 6,
+        "trainingCost": [
+          {
+            "amount": 300,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 100,
+        "upgradeTime": 86400,
+        "hitpoints": 370
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 220000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 84,
+        "level": 7,
+        "trainingCost": [
+          {
+            "amount": 350,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 105,
+        "upgradeTime": 144000,
+        "hitpoints": 380
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 340000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 86,
+        "level": 8,
+        "trainingCost": [
+          {
+            "amount": 400,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 110,
+        "upgradeTime": 230400,
+        "hitpoints": 390
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 460000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 88,
+        "level": 9,
+        "trainingCost": [
+          {
+            "amount": 450,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 115,
+        "upgradeTime": 374400,
+        "hitpoints": 400
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 600000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 90,
+        "level": 10,
+        "trainingCost": [
+          {
+            "amount": 500,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 120,
+        "upgradeTime": 460800,
+        "hitpoints": 500
+      }
+    ],
+    "firingRate": 2,
+    "space": 1,
+    "statsTitles": {
+      "dps": "Damage per shot",
+      "firingRate": "Rate of fire",
+      "space": "Size",
+      "trainingCost": "Training cost",
+      "trainingTime": "Training time",
+      "hitpoints": "Health",
+      "movementSpeed": "Speed",
+      "firingRange": "Range"
+    },
+    "name": "InfantryBot",
+    "firingRange": 4,
+    "type": "infantryBot",
+    "movementSpeed": 2,
+    "description": "Infantry Bot"
+  },
+  {
+    "stats": [
+      {
+        "upgradeCost": [],
+        "dps": 300,
+        "level": 1,
+        "trainingCost": [
+          {
+            "amount": 250,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 240,
+        "upgradeTime": 0,
+        "hitpoints": 60
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 20000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 400,
+        "level": 2,
+        "trainingCost": [
+          {
+            "amount": 330,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 250,
+        "upgradeTime": 7200,
+        "hitpoints": 70
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 40000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 500,
+        "level": 3,
+        "trainingCost": [
+          {
+            "amount": 450,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 260,
+        "upgradeTime": 14400,
+        "hitpoints": 70
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 47000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 600,
+        "level": 4,
+        "trainingCost": [
+          {
+            "amount": 550,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 270,
+        "upgradeTime": 25200,
+        "hitpoints": 70
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 94000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 650,
+        "level": 5,
+        "trainingCost": [
+          {
+            "amount": 700,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 280,
+        "upgradeTime": 32400,
+        "hitpoints": 75
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 160000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 700,
+        "level": 6,
+        "trainingCost": [
+          {
+            "amount": 850,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 290,
+        "upgradeTime": 86400,
+        "hitpoints": 75
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 220000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 750,
+        "level": 7,
+        "trainingCost": [
+          {
+            "amount": 950,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 300,
+        "upgradeTime": 144000,
+        "hitpoints": 75
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 340000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 800,
+        "level": 8,
+        "trainingCost": [
+          {
+            "amount": 1050,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 310,
+        "upgradeTime": 230400,
+        "hitpoints": 80
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 460000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 850,
+        "level": 9,
+        "trainingCost": [
+          {
+            "amount": 1100,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 320,
+        "upgradeTime": 374400,
+        "hitpoints": 80
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 600000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 900,
+        "level": 10,
+        "trainingCost": [
+          {
+            "amount": 1150,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 330,
+        "upgradeTime": 460800,
+        "hitpoints": 80
+      }
+    ],
+    "firingRate": 0.5,
+    "space": 2,
+    "statsTitles": {
+      "dps": "Damage per shot",
+      "firingRate": "Rate of fire",
+      "space": "Size",
+      "trainingCost": "Training cost",
+      "trainingTime": "Training time",
+      "hitpoints": "Health",
+      "movementSpeed": "Speed",
+      "firingRange": "Range"
+    },
+    "name": "RocketBot",
+    "firingRange": 8,
+    "type": "rocketBot",
+    "movementSpeed": 2.5,
+    "description": "Rocket Bot"
+  },
+  {
+    "stats": [
+      {
+        "upgradeCost": [],
+        "dps": 10,
+        "level": 1,
+        "trainingCost": [
+          {
+            "amount": 300,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 360,
+        "upgradeTime": 0,
+        "hitpoints": 1000
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 20000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 10.5,
+        "level": 2,
+        "trainingCost": [
+          {
+            "amount": 500,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 380,
+        "upgradeTime": 7200,
+        "hitpoints": 1400
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 40000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 11,
+        "level": 3,
+        "trainingCost": [
+          {
+            "amount": 700,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 400,
+        "upgradeTime": 14400,
+        "hitpoints": 1800
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 47000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 11.2,
+        "level": 4,
+        "trainingCost": [
+          {
+            "amount": 900,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 420,
+        "upgradeTime": 25200,
+        "hitpoints": 2000
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 94000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 11.4,
+        "level": 5,
+        "trainingCost": [
+          {
+            "amount": 1100,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 440,
+        "upgradeTime": 32400,
+        "hitpoints": 2200
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 160000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 11.6,
+        "level": 6,
+        "trainingCost": [
+          {
+            "amount": 1100,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 460,
+        "upgradeTime": 86400,
+        "hitpoints": 2600
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 220000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 11.7,
+        "level": 7,
+        "trainingCost": [
+          {
+            "amount": 1100,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 480,
+        "upgradeTime": 144000,
+        "hitpoints": 2800
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 340000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 11.8,
+        "level": 8,
+        "trainingCost": [
+          {
+            "amount": 1100,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 500,
+        "upgradeTime": 230400,
+        "hitpoints": 3000
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 460000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 11.9,
+        "level": 9,
+        "trainingCost": [
+          {
+            "amount": 1100,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 520,
+        "upgradeTime": 374400,
+        "hitpoints": 3100
+      },
+      {
+        "upgradeCost": [
+          {
+            "amount": 600000,
+            "resource": "crystalite"
+          }
+        ],
+        "dps": 12,
+        "level": 10,
+        "trainingCost": [
+          {
+            "amount": 1100,
+            "resource": "crystalite"
+          }
+        ],
+        "xpGain": 0,
+        "trainingTime": 540,
+        "upgradeTime": 460800,
+        "hitpoints": 3200
+      }
+    ],
+    "firingRate": 10,
+    "space": 3,
+    "statsTitles": {
+      "dps": "Damage per shot",
+      "firingRate": "Rate of fire",
+      "space": "Size",
+      "trainingCost": "Training cost",
+      "trainingTime": "Training time",
+      "hitpoints": "Health",
+      "movementSpeed": "Speed",
+      "firingRange": "Range"
+    },
+    "name": "HeavyBot",
+    "firingRange": 2.5,
+    "type": "heavyBot",
+    "movementSpeed": 1,
+    "description": "Heavy Bot"
+  }
+]

@@ -27,9 +27,10 @@ socket.$emit = function(){
 types.forEach(function (type) {
   var dictType = 'dict' + type.charAt(0).toUpperCase() + type.substring(1);
   socket.on(dictType, function (json) {
-    if (json instanceof Object) {
-      json = JSON.stringify(json);
+    if (json instanceof String || typeof json === 'string') {
+      json = JSON.parse(json);
     }
+    json = JSON.stringify(json, undefined, 2);
     fs.writeFile(path.join(__dirname, 'json', type + '.json'), json, function() {
       typesCompleted[type] = true;
       if (Object.keys(typesCompleted).length >= types.length) {
