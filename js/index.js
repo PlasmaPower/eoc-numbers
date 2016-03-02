@@ -19,6 +19,11 @@ app.config(function ($stateProvider, $urlRouterProvider) {
       controller: 'typesController'
     })
     .state('thing', {
+      url: '/:category/:id/:graphKey',
+      controller: 'thingController',
+      templateUrl: 'partials/thing.html'
+    })
+    .state('oldThing', {
       url: '/thing/:category/:id/:graphKey',
       controller: 'thingController',
       templateUrl: 'partials/thing.html'
